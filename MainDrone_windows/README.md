@@ -11,5 +11,5 @@ This is the Visual studio project for the main drone
 
 ### Register As Developer
 
-Register for a DJI Developer account here
-https://account.dji.com/register?appId=dji_sdk&backUrl=https%3A%2F%2Fdeveloper.dji.com%2Fuser&locale=en_US).
+Register for a DJI Developer account here.
+https://account.dji.com/register?appId=dji_sdk&backUrl=https%3A%2F%2Fdeveloper.dji.com%2Fuser&locale=en_US.
