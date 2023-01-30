@@ -16,6 +16,6 @@ https://account.dji.com/register?appId=dji_sdk&backUrl=https%3A%2F%2Fdeveloper.d
 
 ### 2. Generate an App Key
 
-Issue an App key according to "Generate an App Key" section on the following page
+Issue an App key according to "Generate an App Key" section on the following page.\\
 https://developer.dji.com/windows-sdk/documentation/application-development-workflow/workflow-integrate.html
 
