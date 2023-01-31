@@ -1,12 +1,13 @@
 # Main drone
-This is the Visual studio project for the main drone
+This is the Visual studio project for the main drone.  
+We have only confirmed it works with DJI Mavic 2 pro.
 
 ## Prerequisites
 
 * A device with Windows 10
 * Visual Studio 2017
 * Windows 10 SDK (Version 1803 or higher)
-* Controller driver (depends on your DJI products. Details are [here](https://developer.dji.com/windows-sdk/documentation/connection/Mavic2.html))
+* Controller driver (Depends on your DJI products. Details are [here](https://developer.dji.com/windows-sdk/documentation/connection/Mavic2.html))
 
 
 ## Before running this project
