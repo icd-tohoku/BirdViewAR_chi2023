@@ -19,3 +19,10 @@ https://account.dji.com/register?appId=dji_sdk&backUrl=https%3A%2F%2Fdeveloper.d
 Issue an App key according to "Generate an App Key" section on the following page.  
 https://developer.dji.com/windows-sdk/documentation/application-development-workflow/workflow-integrate.html
 
+### 3. Insert your App Key
+
+Insert your App Key into DJISDKManager.Instance.RegisterApp("Please enter your App Key here.") in MainPage.xaml.cs.
+
+### 4. Connect to wifi network
+
+Connect your PC to the wifi network to which the PC for Follower drone is connected
