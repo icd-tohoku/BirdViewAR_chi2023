@@ -23,14 +23,19 @@ Issue an App key according to "Generate an App Key" section on the following pag
 https://developer.dji.com/windows-sdk/documentation/application-development-workflow/workflow-integrate.html  
 In this project, I used "com.dji.wsdkdemo" for the package name. If you used another package name, please fill in the package name of Package.appxmanifest with your package name(Detailes are in Configutr Properties section of above page).
 
-### 3. Insert your App Key
+### 3. Replace and import DJIVideoParser
+Remove original DJIVideoParser and copy DJIVideoParser [here](https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909)  
+Import DJIVideoParser project according to "Importing DJIVideoParser Project" section on the following page.  
+https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909
+
+### 4. Insert your App Key
 
 Insert your App Key into DJISDKManager.Instance.RegisterApp("Please enter your App Key here.") in MainPage.xaml.cs.
 
-### 4. Connect to wifi network
+### 5. Connect to wifi network
 
 Connect your PC to the wifi network to which the PC for Follower drone is connected.
 
-### 5. Connect to controller
+### 6. Connect to controller
 
 Connect your PC to the DJI remote controller via Micro-USB cable.
