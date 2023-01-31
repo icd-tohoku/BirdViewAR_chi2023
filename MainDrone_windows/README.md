@@ -27,8 +27,8 @@ Insert your App Key into DJISDKManager.Instance.RegisterApp("Please enter your A
 
 ### 4. Connect to wifi network
 
-Connect your PC to the wifi network to which the PC for Follower drone is connected
+Connect your PC to the wifi network to which the PC for Follower drone is connected.
 
 ### 5. Connect to controller
 
-Connect your PC to the DJI remote controller
+Connect your PC to the DJI remote controller via Micro-USB cable.
