@@ -24,7 +24,7 @@ using Windows.Networking;
 using Windows.Gaming.Input;
 using Windows.Storage;
 using Windows.Graphics.Imaging;
-using OpenCVBridge;
+//using OpenCVBridge;
 using Windows.UI.Core;
 using Windows.System;
 using Windows.UI.ViewManagement;
