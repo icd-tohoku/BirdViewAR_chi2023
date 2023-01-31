@@ -20,7 +20,7 @@ https://account.dji.com/register?appId=dji_sdk&backUrl=https%3A%2F%2Fdeveloper.d
 ### 2. Generate an App Key
 
 Issue an App key according to "Generate an App Key" section on the following page.  
-https://developer.dji.com/windows-sdk/documentation/application-development-workflow/workflow-integrate.html
+https://developer.dji.com/windows-sdk/documentation/application-development-workflow/workflow-integrate.html  
 In this project, I used "com.dji.wsdkdemo" for the package name. If you used another package name, please fill in the package name of Package.appxmanifest with your package name(Detailes are in Configutr Properties section of above page).
 
 ### 3. Insert your App Key
