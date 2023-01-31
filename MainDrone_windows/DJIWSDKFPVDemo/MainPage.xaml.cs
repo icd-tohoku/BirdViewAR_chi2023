@@ -79,7 +79,7 @@ namespace DJIWSDKDemo
             _taskCounter = 0;
             DJISDKManager.Instance.SDKRegistrationStateChanged += Instance_SDKRegistrationEvent;
             //Replace app key with the real key registered. Make sure that the key is matched with your application's package id.
-            DJISDKManager.Instance.RegisterApp("0170a33cb2e5f47c3c979c6a");
+            DJISDKManager.Instance.RegisterApp("Please enter your App Key here.");
             Window.Current.CoreWindow.KeyDown += mp_KeyDown;
         }
 
