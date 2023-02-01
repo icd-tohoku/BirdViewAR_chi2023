@@ -12,7 +12,7 @@ We have only confirmed it works with DJI Mavic 2 pro.
 
 ## Before running this project
 
-### 1. Register As DJI Developer
+### 1. Register as DJI Developer
 
 Register for a DJI Developer account here.  
 https://account.dji.com/register?appId=dji_sdk&backUrl=https%3A%2F%2Fdeveloper.dji.com%2Fuser&locale=en_US.
@@ -24,7 +24,7 @@ https://developer.dji.com/windows-sdk/documentation/application-development-work
 In this project, I used "com.dji.wsdkdemo" for the package name. If you used another package name, please fill in the package name of Package.appxmanifest with your package name(Detailes are in Configutr Properties section of above page).
 
 ### 3. Replace and import DJIVideoParser
-Remove original DJIVideoParser and copy DJIVideoParser [here](https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909)  
+Remove original DJIVideoParser and copy DJIVideoParser from [here](https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909)  
 Import DJIVideoParser project according to "Importing DJIVideoParser Project" section on the following page.  
 https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909
 
