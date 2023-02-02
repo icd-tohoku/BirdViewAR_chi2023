@@ -1,6 +1,6 @@
 # Main drone
-This is the Visual studio project for the main drone.  
-We have only confirmed it works with DJI Mavic 2 pro.
+This is the python scripts for the main drone.  
+We have only confirmed it works with Parrot Anafi 4K and Ubuntu 21.04.
 
 ## Prerequisites
 
