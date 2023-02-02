@@ -30,7 +30,7 @@ https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909
 
 ### 4. Insert your App Key
 
-Insert your App Key into DJISDKManager.Instance.RegisterApp("Please enter your App Key here.") in MainPage.xaml.cs.
+Insert your App Key into DJIWSDKFPVDeamo\DJISDKManager.Instance.RegisterApp("Please enter your App Key here.") in MainPage.xaml.cs.
 
 ### 5. Connect to wifi network
 
