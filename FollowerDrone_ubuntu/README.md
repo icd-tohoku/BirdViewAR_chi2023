@@ -13,13 +13,11 @@ We have only confirmed it works with Parrot Anafi 4K and Ubuntu 21.04.
 ## Description of each file
 
 ### geocalc.py
-Class to calculate the distance in GPS coordinates between two points using the Vincenty method
+Class to calculate the distance in GPS coordinates between two points using the Vincenty method.
 
-### 2. Generate an App Key
-
-Issue an App key according to "Generate an App Key" section on the following page.  
-https://developer.dji.com/windows-sdk/documentation/application-development-workflow/workflow-integrate.html  
-In this project, I used "com.dji.wsdkdemo" for the package name. If you used another package name, please fill in the package name of Package.appxmanifest with your package name(Detailes are in Configutr Properties section of above page).
+### UndistortMtx.npz
+File containing parameters for distortion correction.  
+We calculated this parameter using cv2.calibrateCamera(), cv2.getOptimalNewCameraMatrix() and cv2.initUndistortRectifyMap().
 
 ### 3. Replace and import DJIVideoParser
 Remove original DJIVideoParser and copy DJIVideoParser from [here](https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909)  
