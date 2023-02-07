@@ -10,12 +10,11 @@ We have only confirmed it works with Parrot Anafi 4K and Ubuntu 21.04.
 * pygame
 
 
-## Before running this project
+## Description of each file
 
-### 1. Register as DJI Developer
+### geocalc.py
 
-Register for a DJI Developer account here.  
-https://account.dji.com/register?appId=dji_sdk&backUrl=https%3A%2F%2Fdeveloper.dji.com%2Fuser&locale=en_US.
+Class to calculate the distance in GPS coordinates between two points using the Vincenty method
 
 ### 2. Generate an App Key
 
