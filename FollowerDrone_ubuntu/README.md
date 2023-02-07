@@ -17,7 +17,7 @@ Class to calculate the distance in GPS coordinates between two points using the 
 
 ### UndistortMtx.npz
 File containing parameters for distortion correction.  
-We calculated this parameter using cv2.calibrateCamera(), cv2.getOptimalNewCameraMatrix() and cv2.initUndistortRectifyMap().
+We calculated these parameters using cv2.calibrateCamera(), cv2.getOptimalNewCameraMatrix() and cv2.initUndistortRectifyMap().
 
 ### 3. Replace and import DJIVideoParser
 Remove original DJIVideoParser and copy DJIVideoParser from [here](https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909)  
