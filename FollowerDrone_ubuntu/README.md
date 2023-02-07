@@ -21,18 +21,8 @@ We calculated these parameters using cv2.calibrateCamera(), cv2.getOptimalNewCam
 Since these parameters vary from camera to camera, it is recommended to calculate the parameters for your device in advance.
 
 ### ARBird_final.py
-Remove original DJIVideoParser and copy DJIVideoParser from [here](https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909)  
-Import DJIVideoParser project according to "Importing DJIVideoParser Project" section on the following page.  
-https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909
-
-### 4. Insert your App Key
-
-Insert your App Key into DJIWSDKFPVDeamo\DJISDKManager.Instance.RegisterApp("Please enter your App Key here.") in MainPage.xaml.cs.
-
-### 5. Connect to wifi network
-
-Connect your PC to the wifi network to which the PC for Follower drone is connected.
-
-### 6. Connect to controller
-
-Connect your PC to the DJI remote controller via Micro-USB cable.
+Script to run BirdViewAR.
+Before run this script,
+1. Connect your PC to controller via usb - usb type-C cable.
+2. Connect your PC to the wifi network to which the PC for Main drone is connected.
+3. Run the VS project for the main drone.
