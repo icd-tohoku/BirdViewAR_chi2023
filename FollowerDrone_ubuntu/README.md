@@ -1,13 +1,13 @@
-# Main drone
-This is the python scripts for the main drone.  
+# Follower drone
+This is the python scripts for the follower drone.  
 We have only confirmed it works with Parrot Anafi 4K and Ubuntu 21.04.
 
-## Prerequisites
+## Required libralies
 
-* A device with Windows 10
-* Visual Studio 2017
-* Windows 10 SDK (Version 1803 or higher)
-* Controller driver (Depends on your DJI products. Details are [here](https://developer.dji.com/windows-sdk/documentation/connection/Mavic2.html))
+* [Olympe](https://developer.parrot.com/docs/olympe/installation.html)
+* OpenCV with CUDA
+* [CasADi](https://web.casadi.org/)
+* pygame
 
 
 ## Before running this project
