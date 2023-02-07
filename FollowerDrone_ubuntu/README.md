@@ -17,9 +17,10 @@ Class to calculate the distance in GPS coordinates between two points using the 
 
 ### UndistortMtx.npz
 File containing parameters for distortion correction.  
-We calculated these parameters using cv2.calibrateCamera(), cv2.getOptimalNewCameraMatrix() and cv2.initUndistortRectifyMap().
+We calculated these parameters using cv2.calibrateCamera(), cv2.getOptimalNewCameraMatrix() and cv2.initUndistortRectifyMap().  
+Since these parameters vary from camera to camera, it is recommended to calculate the parameters for your device in advance.
 
-### 3. Replace and import DJIVideoParser
+### ARBird_final.py
 Remove original DJIVideoParser and copy DJIVideoParser from [here](https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909)  
 Import DJIVideoParser project according to "Importing DJIVideoParser Project" section on the following page.  
 https://developer.dji.com/document/868bd800-1fc0-4f9e-a420-b7524a088909
