@@ -13,7 +13,7 @@ We have only confirmed it works with Parrot Anafi 4K and Ubuntu 21.04.
 ## Description of each file
 
 ### geocalc.py
-Class to calculate the distance in GPS coordinates between two points using the Vincenty method.
+Class to calculate the distance in GPS coordinates between two points using the Vincenty formulae.
 
 ### UndistortMtx.npz
 File containing parameters for distortion correction.  
