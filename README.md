@@ -16,10 +16,19 @@ This folder contains the python scripts for Follower drone.
 Please cite our paper for any purpose of usage.
 ```
 @inproceedings{BirdViewAR:CHI2023,
-  author    = {Maakito Inoue and Kazuki Takashima and Kazuyuki Fujita and Yoshifumi Kitamura},
-  title     = {BirdViewAR: Surroundings-aware Remote Drone Piloting Using an Augmented Third-person Perspective},
-  booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23)},
-  numpages     = {19},
-  year      = {2023}
+author = {Inoue, Maakito and Takashima, Kazuki and Fujita, Kazuyuki and Kitamura, Yoshifumi},
+title = {BirdViewAR: Surroundings-Aware Remote Drone Piloting Using an Augmented Third-Person Perspective},
+year = {2023},
+isbn = {9781450394215},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3544548.3580681},
+doi = {10.1145/3544548.3580681},
+booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+articleno = {31},
+numpages = {19},
+keywords = {visualization, Teleportation, spatial awareness},
+location = {Hamburg, Germany},
+series = {CHI '23}
 }
 ```
